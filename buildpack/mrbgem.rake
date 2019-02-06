@@ -11,7 +11,7 @@ MRuby::Gem::Specification.new('buildpack') do |spec|
   spec.add_dependency 'mruby-fileutils-simple',  github:  'hone/mruby-fileutils-simple'
   spec.add_dependency 'mruby-httprequest',       mgem:    'mruby-httprequest'
   spec.add_dependency 'mruby-io',                github:  'hone/mruby-io',               branch:  'popen_status'
-  spec.add_dependency 'mruby-json',              mgem:    'mruby-json'
+  spec.add_dependency 'mruby-json',              github:  'James1x0/mruby-json'
   spec.add_dependency 'mruby-polarssl',          mgem:    'mruby-polarssl'
   spec.add_dependency 'mruby-tempfile',          mgem:    'mruby-tempfile'
   spec.add_dependency 'mruby-yaml',              github:  'jit-y/mruby-yaml'
