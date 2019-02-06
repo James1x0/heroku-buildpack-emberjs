@@ -5,6 +5,7 @@ def gem_config(conf)
   conf.gem File.expand_path(File.dirname(__FILE__))
   conf.gem core: 'mruby-sprintf'
   conf.gem core: 'mruby-time'
+  conf.gem core: 'mruby-print'
   conf.gem mgem: 'mruby-simple-random'
   conf.gem github: 'hone/mruby-io', branch: 'popen_status'
   conf.gem github: 'hone/mruby-process', branch: 'header'
