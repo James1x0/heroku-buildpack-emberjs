@@ -68,7 +68,7 @@ module Buildpack
     end
 
     def fetch_buildpack
-      @output_io.topic "Fetching buildpack #{@name}"
+      @output_io.topic "Fetching buildpack #{BUILDKITS_BASE}#{@name}"
       filename = "#{@name.split("/").last}.tgz"
 
       if block_given?
