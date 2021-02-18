@@ -4,7 +4,7 @@ module Buildpack
   class BuildpackRunner
     include Shell
 
-    BUILDKITS_BASE = "https://codon-buildpacks.s3.amazonaws.com/buildpacks"
+    BUILDKITS_BASE = "https://buildpack-registry.s3.amazonaws.com/buildpacks"
 
     def initialize(output_io, error_io, name)
       @output_io = output_io

@@ -10,7 +10,7 @@ This is a [Heroku Buildpack](http://devcenter.heroku.com/articles/buildpacks) fo
 This buildpack has a binary component, so it needs to be compiled beforehand. It's easiest just to use the buildpack with the prebuilt binary.
 
 ```
-$ heroku buildpacks:set https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz
+$ heroku buildpacks:set https://buildpack-registry.s3.amazonaws.com/buildpacks/aedev/emberjs.tgz
 ```
 
 Once the buildpack is set, you can `git push heroku master` like any other Heroku application.
