@@ -19,7 +19,7 @@ module Buildpack::Commands
     end
 
     def run
-      buildpacks = %w(heroku/nodejs heroku/ember-cli-deploy)
+      buildpacks = %w(heroku/nodejs aedev/ember-cli-deploy)
       fastboot   = dependencies["ember-cli-fastboot"]
       buildpacks << "aedev/static-nginx" unless fastboot
 
